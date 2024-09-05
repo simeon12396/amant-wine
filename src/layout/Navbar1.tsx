@@ -4,6 +4,8 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 // Custom Hooks
 import useScroll from "../components/useScroll";
 import useActiveLink from "../components/useActiveLink";
+import { Link } from "react-router-dom";
+import AmantLogo from "../assets/images/works/amant-logo.png";
 
 const Navbar1 = () => {
   // scroll page state call
@@ -28,10 +30,10 @@ const Navbar1 = () => {
         id="navbar"
       >
         <Container>
-          {/* <Link className="navbar-brand logo" to="">
+          <Link className="navbar-brand logo" to="">
             <img src={AmantLogo} className="logo-light" alt="" height="100" />
             <img src={AmantLogo} className="logo-dark" alt="" height="100" />
-          </Link> */}
+          </Link>
           <button
             className="navbar-toggler"
             type="button"

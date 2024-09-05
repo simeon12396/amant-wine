@@ -12,9 +12,6 @@ import work9 from "../assets/images/works/work-9.png";
 import work10 from "../assets/images/works/work-10.png";
 import work11 from "../assets/images/works/work-11.png";
 import work12 from "../assets/images/works/work-12.png";
-import work13 from "../assets/images/works/work-13.png";
-import work14 from "../assets/images/works/work-14.png";
-import work16 from "../assets/images/works/work-16.png";
 import work18 from "../assets/images/works/work-18.png";
 import work19 from "../assets/images/works/work-19.png";
 import work30 from "../assets/images/works/work-30.png";
@@ -24,6 +21,8 @@ import work33 from "../assets/images/works/work-33.png";
 import work34 from "../assets/images/works/work-34.png";
 import work35 from "../assets/images/works/work-35.png";
 import work36 from "../assets/images/works/work-36.png";
+import work40 from "../assets/images/works/work-40.png";
+import work41 from "../assets/images/works/work-41.png";
 
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
@@ -74,7 +73,7 @@ export const portfolioData: PortfolioData[] = [
   },
   {
     id: 4,
-    image: work1,
+    image: work40,
     groups: ["RedWine"],
     title: "PAYS D'OC ROUGE MERLOT LA GRANDE ALLEE",
     category: "Червени вина",
@@ -85,7 +84,7 @@ export const portfolioData: PortfolioData[] = [
   },
   {
     id: 5,
-    image: work2,
+    image: work41,
     groups: ["RedWine"],
     title: "CHATEAU ROC BONNIERE",
     category: "Червени вина",
