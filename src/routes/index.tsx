@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { routes } from "./allRoutes";
-import Layout from "../layout/Index";
+import { Layout } from "../layout/Layout";
 
-const Routing = () => {
+export const Routing = () => {
   return (
     <React.Fragment>
       <Routes>
@@ -18,5 +18,3 @@ const Routing = () => {
     </React.Fragment>
   );
 };
-
-export default Routing;

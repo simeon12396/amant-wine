@@ -1,17 +1,14 @@
 import React from "react";
 import { Col, Container, Nav, ProgressBar, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import PortfolioWork from "../../components/PortfolioWork";
+import PortfolioWork from "./PortfolioWork";
+import useActiveLink from "../hooks/useActiveLink";
 
-// Image
-import useActiveLink from "../../components/useActiveLink";
-
-const Section = () => {
+export const Core = () => {
   const { handleLinkClick } = useActiveLink(".navbar-nav li.active");
 
   return (
-    <React.Fragment>
-      {/* Home */}
+    <>
       <section className="section agency-home" id="home">
         <div className="bg-overlay"></div>
         <div className="home-center">
@@ -142,12 +139,7 @@ const Section = () => {
 
       <hr />
 
-      {/* Portfolio */}
       <PortfolioWork />
-
-      {/* <hr /> */}
-    </React.Fragment>
+    </>
   );
 };
-
-export default Section;

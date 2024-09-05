@@ -1,6 +1,5 @@
-// pages
-import Index4 from "../pages/Agencylanding/Index4";
+import { HomePage } from "../pages/HomePage";
 
-const routes = [{ path: "/", component: <Index4 /> }];
+const routes = [{ path: "/", component: <HomePage /> }];
 
 export { routes };
