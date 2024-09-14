@@ -5,7 +5,7 @@ import { Layout } from "../layout/Layout";
 
 export const Routing = () => {
   return (
-    <React.Fragment>
+    <>
       <Routes>
         {routes.map((route: any, idx: any) => (
           <Route
@@ -15,6 +15,6 @@ export const Routing = () => {
           />
         ))}
       </Routes>
-    </React.Fragment>
+    </>
   );
 };

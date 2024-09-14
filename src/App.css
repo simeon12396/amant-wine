@@ -1,3 +1,6 @@
+
+@import url('https://fonts.cdnfonts.com/css/dancing-script'); 
+
 .App {
   text-align: center;
 }
@@ -5,6 +8,14 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+
+.amant-logo-text {
+  font-family: 'Dancing Script', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  font-style: normal;
 }
 
 @media (prefers-reduced-motion: no-preference) {

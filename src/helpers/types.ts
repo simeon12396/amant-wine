@@ -1,4 +1,4 @@
-export type PortfolioData = {
+export type PortfolioDataType = {
     id: number;
     image: string;
     groups: string[];

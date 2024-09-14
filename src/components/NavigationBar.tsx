@@ -26,7 +26,7 @@ export const NavigationBar = () => {
     >
       <Container>
         <Link className="navbar-brand logo" to="">
-          <img src={AmantLogo} className="logo-light" alt="" height="100" />
+          <img src={AmantLogo} className="logo-light" alt="" height="130" />
           <img src={AmantLogo} className="logo-dark" alt="" height="100" />
         </Link>
         <button

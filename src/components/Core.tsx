@@ -17,16 +17,9 @@ export const Core = () => {
               <Row className="justify-content-center">
                 <Col lg={12}>
                   <div className="agency-home-content text-center text-white">
-                    <h4 className="agency-home-title text-uppercase mt-4 letter-spacing_6">
+                    <h4 className="text-uppercase mt-4 letter-spacing_6 amant-logo-text">
                       Amant Wines
                     </h4>
-                    <p className="agency-home-desc f-15 mt-4 mx-auto line-height_1_8">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Soluta distinctio recusandae delectus corrupti dolore,
-                      odio obcaecati esse nisi debitis similique consectetur
-                      impedit est porro iste assumenda reprehenderit
-                      consequuntur ut sequi.
-                    </p>
                     <div className="mt-5">
                       <Nav.Link
                         href="#contact"
@@ -47,37 +40,20 @@ export const Core = () => {
       {/* About */}
       <section className="section about" id="about">
         <Container>
-          <Row className="justify-content-center">
-            <Col lg={8}>
-              <div className="heading text-center">
-                <h2 className="heading-title-title letter-spacing_4 text-uppercase">
-                  Lorem, ipsum dolor.
-                </h2>
-                <p className="heading-title-desc text-muted mt-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                  assumenda omnis vero eaque nobis accusantium quidem nihil
-                  necessitatibus odit voluptatibus consectetur error et illum,
-                  neque cum deleniti dolores quasi earum.
-                </p>
-              </div>
-            </Col>
-          </Row>
           <Row className="mt-5 pt-3 align-items-center">
             <Col lg={6}>
               <div className="agency-about-content mt-4">
                 <h4 className="line-height_1_8 text-uppercase f-22 letter-spacing_4">
-                  Lorem ipsum dolor sit amet consectetur.
+                  Подбрана селекция от Екслузивни вина от цял свят
                 </h4>
-                <p className="text-muted mt-3 mb-0">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
-                  similique voluptatum magni iusto quis ad, facere dignissimos
-                  quod veritatis quo!
-                </p>
-
                 <div className="mt-4 pt-2">
-                  <Link to="#" className="btn btn-md btn-dark-custom">
-                    Learn More
-                  </Link>
+                  <Nav.Link
+                    href="#work"
+                    className="btn btn-custom d-inline"
+                    onClick={() => handleLinkClick("/work")}
+                  >
+                    Научете повече
+                  </Nav.Link>
                 </div>
               </div>
             </Col>

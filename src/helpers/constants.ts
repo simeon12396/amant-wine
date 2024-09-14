@@ -20,9 +20,9 @@ import work35 from "../assets/images/works/work-35.png";
 import work36 from "../assets/images/works/work-36.png";
 import work40 from "../assets/images/works/work-40.png";
 import work41 from "../assets/images/works/work-41.png";
-import { PortfolioData } from "./types";
+import { PortfolioDataType } from "./types";
 
-export const portfolioData: PortfolioData[] = [
+export const portfolioData: PortfolioDataType[] = [
     {
       id: 1,
       image: work1,
@@ -58,7 +58,7 @@ export const portfolioData: PortfolioData[] = [
     },
     {
       id: 4,
-      image: work40,
+      image: work41,
       groups: ["RedWine"],
       title: "PAYS D'OC ROUGE MERLOT LA GRANDE ALLEE",
       category: "Червени вина",
@@ -69,7 +69,7 @@ export const portfolioData: PortfolioData[] = [
     },
     {
       id: 5,
-      image: work41,
+      image: work40,
       groups: ["RedWine"],
       title: "CHATEAU ROC BONNIERE",
       category: "Червени вина",
@@ -137,7 +137,7 @@ export const portfolioData: PortfolioData[] = [
       id: 11,
       image: work10,
       groups: ["WhiteWine"],
-      title: "PAYS D'OC BLANC CHARONNAY PHILIPPE ARDISSON",
+      title: "PAYS D'OC BLANC CHARDONNAY PHILIPPE ARDISSON",
       category: "Бели вина",
       type: "50% Каберне сувиньон, 45% Мерло, 5% Малбек",
       flavor:

@@ -13,10 +13,8 @@ export const Contact = () => {
                 Свържете се с нас
               </h2>
               <p className="heading-title-desc text-muted mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Labore, commodi deleniti odio magni, facilis inventore nam quo
-                laboriosam ducimus numquam suscipit libero provident modi, eius
-                mollitia totam! Quae, fugiat quibusdam?
+                За поръчки и съвместна работа обърнете се към нас на посочените
+                координати
               </p>
             </div>
           </Col>

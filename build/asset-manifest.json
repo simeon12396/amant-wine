@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ebafc47.css",
-    "main.js": "/static/js/main.266491e3.js",
-    "static/js/453.460658ad.chunk.js": "/static/js/453.460658ad.chunk.js",
+    "main.css": "/static/css/main.c7bb433e.css",
+    "main.js": "/static/js/main.9ae4d590.js",
     "static/media/work-1.png": "/static/media/work-1.06839296cad4b4153e40.png",
     "static/media/work-9.png": "/static/media/work-9.8b31ca791cac5b0e32d5.png",
     "static/media/work-34.png": "/static/media/work-34.921c39b9b7de463d3aa9.png",
@@ -48,12 +47,11 @@
     "static/media/Pe-icon-7-stroke.ttf?d7yf1v": "/static/media/Pe-icon-7-stroke.7233a7aee250f9b77fba.ttf",
     "static/media/amant-logo.png": "/static/media/amant-logo.acc7b6c87d72e9932649.png",
     "index.html": "/index.html",
-    "main.6ebafc47.css.map": "/static/css/main.6ebafc47.css.map",
-    "main.266491e3.js.map": "/static/js/main.266491e3.js.map",
-    "453.460658ad.chunk.js.map": "/static/js/453.460658ad.chunk.js.map"
+    "main.c7bb433e.css.map": "/static/css/main.c7bb433e.css.map",
+    "main.9ae4d590.js.map": "/static/js/main.9ae4d590.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ebafc47.css",
-    "static/js/main.266491e3.js"
+    "static/css/main.c7bb433e.css",
+    "static/js/main.9ae4d590.js"
   ]
 }
